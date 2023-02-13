@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+}
+.header{
+    background-color: #0A0A0A;
+    padding: 33px 0 32px;
+}
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+    padding:0 15px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.logo{
+    display: flex;
+    flex-grow:1;
+    flex-basis: 0;
+}
+.menu-item{
+    padding-right: 25px;
+}
+.menu-link{
+    color:#717171;
+    
+}
+.phone{
+    text-align: right;
+    flex-grow: 0;
+    flex-basis: 1;
+    color:#717171;
+}
+ul{
+    list-style-type:none;
+    margin:0px;
+}
+.footer{
+    background-color: #0A0A0A;
+    padding: 33px 0 32px;
+}
+.menu1{
+    display: flex;
+    padding-right: 30px;
+    justify-content: center;
+}
+.frame{
+    display: flex;
+    width: 800px;
+    height: 600px;
+    margin:0 auto;
+    padding:0 15px;
+    align-items: center;
+}
